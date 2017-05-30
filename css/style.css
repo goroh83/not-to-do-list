@@ -5,16 +5,26 @@ body {
   font-size: 1.2em; }
 
 .container {
+  background-color: #507274;
   width: 400px;
-  margin: 150px auto; }
+  margin: 150px auto;
+  padding: 5px 5px; }
 
 input {
-  height: 2em;
-  width: 100%;
-  margin: 0 auto; }
+  height: 2em; }
 
 h1 {
   text-transform: uppercase;
   text-align: center; }
+
+ul {
+  list-style-type: none; }
+
+li {
+  padding: 5px 0; }
+
+.completed {
+  color: #9EBEBF;
+  text-decoration: line-through; }
 
 /*# sourceMappingURL=style.css.map */
