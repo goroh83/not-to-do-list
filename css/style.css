@@ -1,21 +1,31 @@
 body {
   background-color: #293249;
-  color: #f1f1f1;
+  color: #293249;
   font-family: "muli", sans-serif;
-  font-size: 1.2em; }
+  font-size: 1.2em;
+  margin: 0;
+  padding: 0; }
 
 .container {
-  background-color: #507274;
+  background-color: white;
   width: 400px;
-  margin: 150px auto;
-  padding: 5px 5px; }
+  border-radius: 10px;
+  margin: 150px auto; }
+
+.newInput {
+  margin: 0 auto; }
 
 input {
   height: 2em; }
 
 h1 {
   text-transform: uppercase;
-  text-align: center; }
+  font-weight: 500;
+  background-color: #507274;
+  color: white;
+  margin: 0 0 10px 0;
+  padding: 10px;
+  font-size: 1.6em; }
 
 ul {
   list-style-type: none; }
