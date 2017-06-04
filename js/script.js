@@ -21,4 +21,4 @@ $('h1 img').on('click', function(){
     $('.newInput').slideToggle();
     $('h1 img').toggleClass('rotated');
 
-})
+});
